@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-8">
+
+    <h1>Peeps!</h1>
+<br/>
+    {% for peep in peeps %}
+        <div class="alert alert-dark" role="alert">
+          <div class="container">
+            <div class="row">
+              <div class="col-1">
+                {% if peep.user.profile.profile_image %}
+                  <img src="{{ peep.user.profile.profile_image.url }}" width=50 height=50 class="rounded-circle" alt="{{ profile.user.username }}">
+          
+                  {% else %}
+                  <img src="{% static 'images/default_profile_pic.png' %}" width=50 height=50 class="rounded-circle" alt="{{ profile.user.username }}">	
+                  {% endif %}
+              </div>
+          
+              <div class="col-11">
+                {{ peep.body }}<br/>
+                <small class="text-muted">
+                  ({{ peep.created_at}}) By 
+                  @{{ peep.user.username }} 
+                  - {{peep.number_of_likes}} Likes -
+
+                  {% if user in peep.likes.all %}
+                    <a href="{% url 'peep_like' peep.id %}">UNLIKE</a>
+                  {% else %}
+                    <a href="{% url 'peep_like' peep.id %}">LIKE</a>
+                  {% endif %}
+                  &nbsp;&nbsp;
+                  <a href="{% url 'peep_show' peep.id %}">share</a>
+                </small>
+              </div><br/><br/>
+            
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+</div>
+
+    <div class="col-4">
+                    <br/><br/><br/>
+
+
+
+{% if form %}
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+  <button type="submit" class="btn btn-secondary">Peep!</button>
+</form>
+
+{% endif %}
+    </div>
+
+
+{% endblock %}
