@@ -6,39 +6,39 @@
 - Users can register for an account.
 - Users can log in and authenticate themselves.
 
- 3. User Profiles:
+ 2. User Profiles:
 - Users have profiles with profile pictures.
 - Profiles include information about the user.
 
- 4. Follows:
+ 3. Follows:
 - Users can follow other users.
 - Users can track updates from users they follow.
  
- 5. Peeps (Tweets):
+ 4. Peeps (Tweets):
 - Users can post peeps (tweets).
 - Peeps are short messages shared by users.
 - Peeps have character limits and are publicly visible.
 - Peeps can include text, links, and mentions.
 
- 6. Like and Unlike Peeps:
+ 5. Like and Unlike Peeps:
 - Users can like peeps.
 - Users can remove their likes from peeps.
 
- 7. Delete, Update, and Share Peeps:
+ 6. Delete, Update, and Share Peeps:
 - Users can delete their own peeps.
 - Users can update the content of their own peeps.
 - Users can share peeps on their own profiles.
 
- 8. Search Functionality:
+ 7. Search Functionality:
 - Users can search for other users.
 - Users can search for specific peeps or content within peeps.
 
- 9. User Interactions:
+ 8. User Interactions:
 - Users can follow/unfollow other users.
 - Users can view peeps from users they follow.
 - Users can interact with peeps (like, share, etc.).
 
- 10. User Experience Enhancements:
+ 9. User Experience Enhancements:
 - Profiles include profile pictures for user identification.
 - Peeps are limited in length, similar to tweets on Twitter.
 - Users can mention other users in their peeps.
