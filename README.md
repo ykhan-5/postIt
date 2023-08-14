@@ -4,7 +4,7 @@
 ## Home Page
 <img width="1105" alt="HomePage" src="https://github.com/ykhan-5/postIt/assets/131565514/28fe5b77-c755-4e72-b6f5-139eec040b7f">
 
-## Login Page ###(with error handling)
+## Login Page (with error handling)
 <img width="1104" alt="LoginPage" src="https://github.com/ykhan-5/postIt/assets/131565514/20a9f2f0-8bdf-4ebd-8a51-b9c03e7984a5">
 
 ## Profile List
