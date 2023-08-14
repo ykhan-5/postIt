@@ -3,47 +3,47 @@
 
  ### Functionalities:
  1. User Registration and Authentication:
-Users can register for an account.
-Users can log in and authenticate themselves.
+- Users can register for an account.
+- Users can log in and authenticate themselves.
 
- 2. User Profiles:
+ 3. User Profiles:
 Users have profiles with profile pictures.
 Profiles include information about the user.
 
- 3. Follows:
+ 4. Follows:
 Users can follow other users.
 Users can track updates from users they follow.
  
- 4. Peeps (Tweets):
+ 5. Peeps (Tweets):
 Users can post peeps (tweets).
 Peeps are short messages shared by users.
 Peeps have character limits and are publicly visible.
 Peeps can include text, links, and mentions.
 
- 5. Like and Unlike Peeps:
+ 6. Like and Unlike Peeps:
 Users can like peeps.
 Users can remove their likes from peeps.
 
- 6. Delete, Update, and Share Peeps:
+ 7. Delete, Update, and Share Peeps:
 Users can delete their own peeps.
 Users can update the content of their own peeps.
 Users can share peeps on their own profiles.
 
- 7. Search Functionality:
+ 8. Search Functionality:
 Users can search for other users.
 Users can search for specific peeps or content within peeps.
 
- 8. User Interactions:
+ 9. User Interactions:
 Users can follow/unfollow other users.
 Users can view peeps from users they follow.
 Users can interact with peeps (like, share, etc.).
 
- 9. User Experience Enhancements:
+ 10. User Experience Enhancements:
 Profiles include profile pictures for user identification.
 Peeps are limited in length, similar to tweets on Twitter.
 Users can mention other users in their peeps.
  
- 10. Social Networking Features:
+ 11. Social Networking Features:
 Users can establish connections by following each other.
 Users can see updates from other users in their feeds.
 Users can engage with peeps by liking and sharing.
